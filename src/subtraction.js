@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AddButton = ({handleClick}) => (
+const MinusButton = ({handleClick}) => (
      <button onClick={handleClick}>-</button>
 )
 
 
-export default AddButton;
+export default MinusButton;

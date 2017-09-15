@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Value from './value';
+import Chatroom from './chat';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <h2>Counter App</h2>
         </div>
         <Value />
+        <Chatroom  handleClick={this._comment}/>
       </div>
     );
   }
