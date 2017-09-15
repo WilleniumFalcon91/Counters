@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class AddButton extends Component {
-    render () {
-        return (
-            <button>+</button>
-        )
-    }
-}
+const AddButton = ({handleClick}) => (
+     <button onClick={handleClick}>+</button>
+)
 
 
 export default AddButton;

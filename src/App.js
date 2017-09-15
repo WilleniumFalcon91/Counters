@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import AddButton from './addition';
-import MinusButton from './subtraction';
 import Value from './value';
 
 class App extends Component {
@@ -15,8 +13,6 @@ class App extends Component {
           <h2>Counter App</h2>
         </div>
         <Value />
-        <AddButton />
-        <MinusButton />
       </div>
     );
   }
