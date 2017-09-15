@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src="https://vignette2.wikia.nocookie.net/muppet/images/2/24/The_Count_cape_cover.jpg/revision/latest?cb=20160108224919"className="App-logo" alt="logo" />
           <h2>Counter App</h2>
         </div>
         <Value />
